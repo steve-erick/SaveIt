@@ -1,6 +1,7 @@
 package com.erick.financas_pessoal.service;
 
 import java.util.List;
+import java.util.Optional;
 
 import org.springframework.stereotype.Service;
 
@@ -22,6 +23,11 @@ public class CategorieService {
     public List<Categorie> getAll(){
         return categorieRepository.findAll();
     }
+
+    public Optional<Categorie> getById(long id) {
+        return categorieRepository.findById(id);
+    }
+
     //criar
     public Categorie save(Categorie categorie){
         return categorieRepository.save(categorie);

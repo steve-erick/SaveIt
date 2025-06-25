@@ -1,6 +1,7 @@
 package com.erick.financas_pessoal.service;
 
 import java.util.List;
+import java.util.Optional;
 
 import org.springframework.stereotype.Service;
 
@@ -24,6 +25,10 @@ public class FinanceService {
     }
 
   
+    public Optional<Finance> getById(long id) {
+        return financeRepository.findById(id);
+    }
+
     //criar
     public Finance save(Finance finance){
         return financeRepository.save(finance);
