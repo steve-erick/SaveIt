@@ -1,6 +1,7 @@
 package com.erick.financas_pessoal.service;
 
 import java.util.List;
+import java.util.Optional;
 
 import org.springframework.stereotype.Service;
 
@@ -23,6 +24,10 @@ public class UserService {
         return userRepository.findAll();
     }
 
+    //listar por id
+    public Optional<User> getById(long id) {
+        return userRepository.findById(id);
+    }
   
     //criar
     public User save(User user){
@@ -35,7 +40,6 @@ public class UserService {
     
     //update
     public User update(User user) {
-    // Verifica se o registro existe
     if (user.getId() == null || !userRepository.existsById(user.getId())) {
         throw new IllegalArgumentException("User not found or ID is null");
     }
