@@ -24,6 +24,10 @@ public class FinanceService {
         return financeRepository.findAll();
     }
 
+    
+    public List<Finance> getByUserId(Long userId) {
+        return financeRepository.findByUserId(userId);
+    }
   
     public Optional<Finance> getById(long id) {
         return financeRepository.findById(id);
