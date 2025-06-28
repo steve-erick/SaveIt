@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.erick.financas_pessoal.model.Finance;
@@ -29,9 +30,10 @@ public class FinanceController {
 
     // aqui você coloca seus endpoints, ex:
     // @GetMapping, @PostMapping, etc.
-    @GetMapping 
-    public List<Finance> getAll(){return financeService.getAll();}
-
+    @GetMapping
+    public List<Finance> getByUser(@RequestParam Long userId) {
+    return financeService.getByUserId(userId);
+}
     @PostMapping
     public Finance create(@RequestBody Finance finance){ return financeService.save(finance);} 
 

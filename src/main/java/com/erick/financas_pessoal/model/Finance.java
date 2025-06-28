@@ -5,6 +5,8 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import jakarta.persistence.ManyToOne;
+import jakarta.persistence.JoinColumn;
 
 @Entity
 public class Finance {
@@ -12,21 +14,27 @@ public class Finance {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    private String description;
+    private String name;
     private String value;
     private LocalDate expirationDate;
-    private String type_id;
-    private long  user_id;
+
+    @ManyToOne
+    @JoinColumn(name = "type_id")
+    private Categorie categorie;
+
+    @ManyToOne
+    @JoinColumn(name = "user_id")
+    private User user;  
 
     public Finance() {
     }
 
-     public Finance(String description, String value, LocalDate expirationDate, String type_id,long user_id) {
-        this.description = description;
+     public Finance(String name, String value, LocalDate expirationDate, Categorie categorie,User user) {
+        this.name = name;
         this.value = value;
         this.expirationDate = expirationDate;
-        this.type_id = type_id;
-        this.user_id = user_id;
+        this.categorie = categorie;
+        this.user = user;
 
         
     }
@@ -35,8 +43,8 @@ public class Finance {
         return id;
     }
 
-    public String getDescription(){
-        return description;
+    public String getName(){
+        return name;
     }
 
     public void setvalue(String value){
@@ -47,8 +55,8 @@ public class Finance {
         return value;
     }
 
-    public void setDescription(String description){
-        this.description = description;
+    public void setName(String name){
+        this.name = name;
     }
     
     public LocalDate getDate(){
@@ -59,19 +67,19 @@ public class Finance {
         this.expirationDate = expirationDate;
     }
     
-    public String getType_id(){
-        return type_id;
+    public Categorie getType_id(){
+        return categorie;
     }
 
-    public void setType_id(String type_id){
-        this.type_id = type_id;
+    public void setType_id(Categorie type_id){
+        this.categorie = type_id;
     }
     
-    public Long getuser_id(){
-        return user_id;
+    public User getuser_id(){
+        return user;
     }
 
-    public void setuser_id(Long user_id){
-        this.user_id = user_id;
+    public void setuser_id(User user_id){
+        this.user = user_id;
     }
 }
