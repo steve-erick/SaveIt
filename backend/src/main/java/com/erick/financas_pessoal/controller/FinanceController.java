@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.erick.financas_pessoal.dto.Financedto;
 import com.erick.financas_pessoal.model.Finance;
 import com.erick.financas_pessoal.service.FinanceService;
 
@@ -35,7 +36,9 @@ public class FinanceController {
     return financeService.getByUserId(userId);
 }
     @PostMapping
-    public Finance create(@RequestBody Finance finance){ return financeService.save(finance);} 
+    public Finance create(@RequestBody Financedto dto) {
+    return financeService.saveFromDTO(dto);
+}
 
     @PutMapping
     public Finance update(@RequestBody Finance finance){ return financeService.update(finance);} 
