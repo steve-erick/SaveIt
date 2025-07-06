@@ -1,4 +1,4 @@
-<img align="left" src="logo.png" width=200px alt="Exemplo imagem">
+<img align="left" src="logo.png" width=300px alt="Exemplo imagem">
 <h1>Save It</h1>
 
 
