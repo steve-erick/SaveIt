@@ -1,11 +1,17 @@
-<img align="left" src="logo.png" width=300px alt="Exemplo imagem">
-
-![GitHub repo size](https://img.shields.io/github/repo-size/steve-erick/CasaDaRobotica?style=for-the-badge)
-![GitHub language count](https://img.shields.io/github/languages/count/steve-erick/CasaDaRobotica?style=for-the-badge)
-![GitHub forks](https://img.shields.io/github/forks/steve-erick/CasaDaRobotica?style=for-the-badge)
-![Bitbucket open issues](https://img.shields.io/bitbucket/issues/steve-erick/CasaDaRobotica?style=for-the-badge)
-![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/steve-erick/CasaDaRobotica?style=for-the-badge)
-
+<table>
+  <tr>
+    <td>
+      <img src="logo.png" width="300px" alt="Logo CasaDaRobotica">
+    </td>
+    <td>
+      ![GitHub repo size](https://img.shields.io/github/repo-size/steve-erick/CasaDaRobotica?style=for-the-badge)
+      ![GitHub language count](https://img.shields.io/github/languages/count/steve-erick/CasaDaRobotica?style=for-the-badge)
+      ![GitHub forks](https://img.shields.io/github/forks/steve-erick/CasaDaRobotica?style=for-the-badge)
+      ![GitHub issues](https://img.shields.io/github/issues/steve-erick/CasaDaRobotica?style=for-the-badge)
+      ![GitHub pull requests](https://img.shields.io/github/issues-pr/steve-erick/CasaDaRobotica?style=for-the-badge)
+    </td>
+  </tr>
+</table>
 <img src="template.png" alt="Exemplo imagem">
 
 > Projeto de loja virtual para produtos de robotica e eletronica.
