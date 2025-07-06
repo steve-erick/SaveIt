@@ -1,4 +1,4 @@
-<div align="center">
+<div align="left">
   <!-- Logo no topo -->
   <img src="logo.png" width="300px" alt="Logo CasaDaRobotica">
   
