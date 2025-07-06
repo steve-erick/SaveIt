@@ -1,4 +1,4 @@
-<img align="left" align="left" src="logo.png" width=300px alt="Exemplo imagem">
+<img align="left" src="logo.png" width=300px alt="Exemplo imagem">
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/steve-erick/CasaDaRobotica?style=for-the-badge)
 ![GitHub language count](https://img.shields.io/github/languages/count/steve-erick/CasaDaRobotica?style=for-the-badge)
