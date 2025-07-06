@@ -1,5 +1,4 @@
 <img align="top" align="left" src="logo.png" width=300px alt="Exemplo imagem">
-<h1>Save It</h1>
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/steve-erick/CasaDaRobotica?style=for-the-badge)
 ![GitHub language count](https://img.shields.io/github/languages/count/steve-erick/CasaDaRobotica?style=for-the-badge)
