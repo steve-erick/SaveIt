@@ -5,11 +5,12 @@
   <!-- Badges abaixo da logo -->
   <div>
     
-    ![GitHub repo size](https://img.shields.io/github/repo-size/steve-erick/CasaDaRobotica?style=for-the-badge)
-    ![GitHub language count](https://img.shields.io/github/languages/count/steve-erick/CasaDaRobotica?style=for-the-badge)
-    ![GitHub forks](https://img.shields.io/github/forks/steve-erick/CasaDaRobotica?style=for-the-badge)
-    ![GitHub issues](https://img.shields.io/github/issues/steve-erick/CasaDaRobotica?style=for-the-badge)
-    ![GitHub pull requests](https://img.shields.io/github/issues-pr/steve-erick/CasaDaRobotica?style=for-the-badge)
+    
+![GitHub repo size](https://img.shields.io/github/repo-size/steve-erick/CasaDaRobotica?style=for-the-badge)
+![GitHub language count](https://img.shields.io/github/languages/count/steve-erick/CasaDaRobotica?style=for-the-badge)
+![GitHub forks](https://img.shields.io/github/forks/steve-erick/CasaDaRobotica?style=for-the-badge)
+![Bitbucket open issues](https://img.shields.io/bitbucket/issues/steve-erick/CasaDaRobotica?style=for-the-badge)
+![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/steve-erick/CasaDaRobotica?style=for-the-badge)
   
   </div>
 </div>
