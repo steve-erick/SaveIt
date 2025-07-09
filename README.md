@@ -1,6 +1,6 @@
 <div align="left">
   <!-- Logo no topo -->
-  <img src="logo.png" width="300px" alt="Logo SaveIt">
+  <img src="logo.webp" width="300px" alt="Logo SaveIt">
   
   <!-- Badges abaixo da logo -->
   <div>
